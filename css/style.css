@@ -1,7 +1,36 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     color: brown;
+}
+
+.menu {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(35, 70, 182);
+}
+
+.menu_block {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu_items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_link {
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    padding: 12px;
 }
