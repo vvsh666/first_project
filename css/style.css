@@ -34,3 +34,7 @@ h1 {
     color: red;
     padding: 12px;
 }
+
+.menu_items:hover {
+    color: red;
+}
