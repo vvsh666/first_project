@@ -35,6 +35,11 @@ h1 {
     padding: 12px;
 }
 
-.menu_items:hover {
-    color: red;
+.menu_link:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: red;
+    transition: 0.5s;
+    filter: blur(1px);
+
 }
